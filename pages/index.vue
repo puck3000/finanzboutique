@@ -72,6 +72,55 @@ export default {
 
 /*
 /--------------------
+/ fonts
+/--------------------
+*/
+
+@font-face {
+  font-family: 'Jost*';
+  src: url('~/fonts/Jost/OpenType/Jost-400-Book.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Jost*';
+  src: url('~/fonts/Jost/OpenType/Jost-700-Bold.otf');
+  font-style: bold;
+  font-weight: bold;
+}
+
+body {
+  font-family: 'Jost*', Futura, 'Trebuchet MS', Arial;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+#secondCont h2 {
+  line-height: 1;
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+article a {
+  line-height: 1.3;
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+/*
+/--------------------
 / layout
 /--------------------
 */
@@ -138,52 +187,5 @@ article {
 
 .color4 {
   background-color: #00af7c;
-}
-
-/*
-/--------------------
-/ fonts
-/--------------------
-*/
-
-@font-face {
-  font-family: 'Jost*';
-  src: url('~/fonts/Jost/OpenType/Jost-400-Book.otf');
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: 'Jost*';
-  src: url('~/fonts/Jost/OpenType/Jost-700-Bold.otf');
-  font-style: bold;
-  font-weight: bold;
-}
-
-body {
-  font-family: 'Jost*', Futura, 'Trebuchet MS', Arial;
-}
-
-h1 {
-  font-size: 3em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-h2 {
-  font-size: 2em;
-  font-weight: normal;
-}
-
-#secondCont h2 {
-  font-size: 3em;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-article a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  font-size: 1.5em;
 }
 </style>
