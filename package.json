@@ -1,8 +1,8 @@
 {
-  "name": "David Kobel Finanzboutique",
+  "name": "finanzboutique",
   "version": "1.0.0",
   "description": "David Kobel Finanzboutique -- Vermögen -- Steuern -- Vorsorge",
-  "author": "Daniel Lerch",
+  "author": "Daniel Lerch, daniel@hellastudio.ch",
   "private": false,
   "scripts": {
     "dev": "nuxt",
