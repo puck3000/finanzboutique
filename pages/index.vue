@@ -119,6 +119,21 @@ article a {
   font-size: 1.5em;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.7em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  #secondCont h2 {
+    font-size: 2.7em;
+  }
+  article a {
+    font-size: 1.35em;
+  }
+}
+
 /*
 /--------------------
 / layout
