@@ -1,6 +1,6 @@
 <template>
   <div id="mainWrap">
-    <section v-if="page1" :class="'color' + randomNumber()" id="firstCont" @click="toggleSections">
+    <section v-if="page1" :class="'color' + randomNumber() + ' page1'" id="firstCont" @click="toggleSections">
       <div class="centerBoth">
         <h1>David Kobel</h1>
         <h2>Finanzboutique</h2>
@@ -160,6 +160,10 @@ ul {
 
 article {
   margin-top: 2em;
+}
+
+.page1 {
+  cursor: pointer;
 }
 
 /*
