@@ -19,6 +19,34 @@ module.exports = {
         hid: 'description',
         name: 'description',
         content: pkg.description
+      },
+      {
+        hid: 'twitter:card',
+        name: 'twitter:card',
+        value: 'https://davidkobel.ch/davidkobel'
+      }, {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        value: pkg.description
+      }, {
+        hid: 'og:title',
+        name: 'og:title',
+        content: 'David Kobel'
+      }, {
+        name: 'og:type',
+        content: 'article'
+      }, {
+        hid: 'og:url',
+        name: 'og:url',
+        content: 'https://davidkobel.ch'
+      }, {
+        hid: 'og:image',
+        name: 'og:image',
+        content: 'https://davidkobel.ch/davidkobel'
+      }, {
+        hid: 'og:description',
+        name: 'og:description',
+        content: pkg.description
       }
     ],
     link: [{
