@@ -1,9 +1,9 @@
 {
-  "name": "finanzboutiqueSite",
+  "name": "David Kobel Finanzboutique",
   "version": "1.0.0",
-  "description": "Online Visitenkarte für Finanzboutique",
+  "description": "David Kobel Finanzboutique -- Vermögen -- Steuern -- Vorsorge",
   "author": "Daniel Lerch",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
