@@ -23,7 +23,7 @@ module.exports = {
       {
         hid: 'twitter:card',
         name: 'twitter:card',
-        value: 'https://davidkobel.ch/davidkobel'
+        value: 'https://davidkobel.ch/davidkobel.jpg'
       }, {
         hid: 'twitter:description',
         name: 'twitter:description',
@@ -42,7 +42,7 @@ module.exports = {
       }, {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://davidkobel.ch/davidkobel'
+        content: 'https://davidkobel.ch/davidkobel.jpg'
       }, {
         hid: 'og:description',
         name: 'og:description',

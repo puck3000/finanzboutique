@@ -4,6 +4,7 @@
       <div class="centerBoth">
         <h1>David Kobel</h1>
         <h2>Finanzboutique</h2>
+        <img id="ab2019" src="~/assets/img/DK_2019_Mark.svg" alt="Ab 2019">
       </div>
   </section>
   <section v-else id="secondCont" :class="'bgc' + currentNumber" class="bgc5" @click="toggleSections">
@@ -94,7 +95,8 @@ body {
   font-family: 'Jost*', Futura, 'Trebuchet MS', Arial;
 }
 
-h1 {
+h1,
+#ab2019 {
   font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
@@ -121,16 +123,33 @@ article a {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 2.7em;
+    font-size: 2em;
   }
   h2 {
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
   #secondCont h2 {
-    font-size: 2.7em;
+    font-size: 2em;
   }
   article a {
-    font-size: 1.35em;
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-device-width: 480px) {
+  h1 {
+    font-size: 1.7em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  #secondCont h2 {
+    font-size: 1.7em;
+  }
+  article a {
+    font-size: 1em;
+  }
+  #secondCont {
+    margin-top: 1.5em;
   }
 }
 
@@ -150,6 +169,7 @@ section {
 .centerBoth {
   margin: auto;
   text-align: center;
+  position: relative;
 }
 
 ul {
@@ -164,6 +184,25 @@ article {
 
 .page1 {
   cursor: pointer;
+}
+
+#ab2019 {
+  width: 1em;
+  position: absolute;
+  top: -3em;
+  right: -5em;
+}
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  #ab2019 {
+    right: -3em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #ab2019 {
+    right: -1em;
+    top: -2em;
+  }
 }
 
 /*
