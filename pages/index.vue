@@ -205,6 +205,14 @@ article {
   }
 }
 
+/* ie fix */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   #mainWrap {
+     margin-top: 3em;
+   }
+}
+
+
 /*
 /--------------------
 / colors
