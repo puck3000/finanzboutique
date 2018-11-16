@@ -207,7 +207,7 @@ article {
 
 /* ie fix */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   #mainWrap {
+   section {
      margin-top: 3em;
    }
 }
