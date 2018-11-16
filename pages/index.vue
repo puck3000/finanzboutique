@@ -207,7 +207,7 @@ article {
 
 /* ie fix */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   h1 {
+   h1, .centerBoth>ul {
      padding-top: 3em;
    }
 }
