@@ -207,8 +207,8 @@ article {
 
 /* ie fix */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   section {
-     margin-top: 3em;
+   h1 {
+     padding-top: 3em;
    }
 }
 
