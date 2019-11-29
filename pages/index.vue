@@ -1,37 +1,44 @@
 <template>
   <div id="mainWrap">
-    <section v-if="page1" :class="'color' + randomNumber() + ' page1'" id="firstCont" @click="toggleSections">
+    <section
+      v-if="page1"
+      :class="'color' + randomNumber() + ' page1'"
+      id="firstCont"
+      @click="toggleSections"
+    >
       <div class="centerBoth">
         <h1>David Kobel</h1>
         <h2>Finanzboutique</h2>
-        <img id="ab2019" src="~/assets/img/DK_2019_Mark.svg" alt="Ab 2019">
+        <img id="ab2019" src="~/assets/img/DK_2019_Info.svg" alt="Info" />
       </div>
-  </section>
-  <section v-else id="secondCont" :class="'bgc' + currentNumber" class="bgc5" @click="toggleSections">
-    <div class="centerBoth">
-      <ul>
-        <li>
-          <h2>Vermögen</h2>
-        </li>
-        <li>
-          <h2>Steuern</h2>
-        </li>
-        <li>
-          <h2>Vorsorge</h2>
-        </li>
-      </ul>
-      <article id="adresse">
-        <a href="#" >Steinhofstrasse 29, 3400 Burgdorf</a>
-        <a href="tel:+41765277840">076 527 78 40</a>
-        <a href="mailto:dk@davidkobel.ch">dk@davidkobel.ch</a>
-      </article>
-    </div>
-    
-  </section>
-  
-
+    </section>
+    <section
+      v-else
+      id="secondCont"
+      :class="'bgc' + currentNumber"
+      class="bgc5"
+      @click="toggleSections"
+    >
+      <div class="centerBoth">
+        <ul>
+          <li>
+            <h2>Steuern</h2>
+          </li>
+          <li>
+            <h2>Vermögen</h2>
+          </li>
+          <li>
+            <h2>Vorsorge</h2>
+          </li>
+        </ul>
+        <article id="adresse">
+          <a href="#">Steinhofstrasse 29, 3400 Burgdorf</a>
+          <a href="tel:+410344229029">034 422 90 29</a>
+          <a href="mailto:dk@davidkobel.ch">dk@davidkobel.ch</a>
+        </article>
+      </div>
+    </section>
   </div>
-  
 </template>
 
 <script>
@@ -117,7 +124,7 @@ article a {
   line-height: 1.3;
   display: block;
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 1.5em;
 }
 
@@ -207,11 +214,11 @@ article {
 
 /* ie fix */
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-   h1, .centerBoth>ul {
-     padding-top: 3em;
-   }
+  h1,
+  .centerBoth > ul {
+    padding-top: 3em;
+  }
 }
-
 
 /*
 /--------------------
